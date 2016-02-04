@@ -1,0 +1,33 @@
+{
+  "name": "modular-newsletter",
+  "version": "1.0.0",
+  "description": "A simple modular email workflow built with gulp that also supports MailChimp's template styling language",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hatfim/modular-newsletter.git"
+  },
+  "keywords": [
+    "email",
+    "modular",
+    "mailchimp"
+  ],
+  "author": "Kevin To",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^1.8.1",
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^2.0.0",
+    "gulp-inline-source": "^1.1.0",
+    "gulp-mc-inliner": "0.0.4",
+    "gulp-sass": "^2.1.1",
+    "gulp-util": "^3.0.3",
+    "htmlstrip-native": "^0.1.1",
+    "mailchimp": "^1.1.0",
+    "nodemailer": "^1.3.1",
+    "through2": "^0.6.5",
+    "tiny-lr": "^0.1.4"
+  }
+}

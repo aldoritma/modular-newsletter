@@ -1,0 +1,18 @@
+{
+  "APIKEY": "7187fa5acebac9d7161ce363b4eef69d-us3",
+
+  "testing": {
+    "from": "Email Address to send from",
+    "to": "Who do you want to send to? Comma separated",
+    "subject": "Subject for test email"
+  },
+
+  "auth": {
+    "mailgun": {
+        "user": "hatfim.dev@gmail.com",
+        "pass": "iamwhoiam"
+    }
+  },
+
+  "litmus": "hatfim@litmustest.com"
+}
